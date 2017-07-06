@@ -10,7 +10,6 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y netcat-openbsd && \
     apt-get install --no-install-recommends -y socat && \
     apt-get install --no-install-recommends -y htop && \
-    apt-get install --no-install-recommends -y collectd && \
     apt-get install --no-install-recommends -y openssh-client && \
     apt-get install --no-install-recommends -y iputils-ping && \
     apt-get install --no-install-recommends -y iputils-tracepath && \
